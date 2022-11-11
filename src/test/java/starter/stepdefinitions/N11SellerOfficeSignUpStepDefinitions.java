@@ -34,11 +34,11 @@ public class N11SellerOfficeSignUpStepDefinitions {
     @When("user signed in seller office with valid credentials without clicking the contract box")
     public void userSignedInSellerOfficeWithValidCredentialsWithoutClickingTheContractBox() {
         actor.attemptsTo(SignUpAsUser.signUpThePage(
-                "onurcan22",
+                "onur.25673",
                 "123123",
                 "123123",
-                "can.yondem.22@gmail.com",
-                "can.yondem.22@gmail.com",
+                "onur.25673@gmail.com",
+                "onur.25673@gmail.com",
                 "pati_store"
                 ));
     }
